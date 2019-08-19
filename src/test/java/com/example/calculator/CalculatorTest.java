@@ -57,8 +57,8 @@ public class CalculatorTest {
     @Test
     public void 양수뺄셈() {
         Calculator calc = new Calculator();
-        int result = calc.subtract(5,4);
-        assertEquals(1 , result);
+        int result = calc.subtract(6,4);
+        assertEquals(2 , result);
     }
 
     @Test
