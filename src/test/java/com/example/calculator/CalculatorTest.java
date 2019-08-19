@@ -53,9 +53,19 @@ public class CalculatorTest {
         assertEquals(0 , result);
     }
 
-    public int subtract(int a, int b) { return a - b; }
 
-    public int multiply(int a, int b) { return a * b; }
+    @Test
+    public void 양수뺄셈() {
+        Calculator calc = new Calculator();
+        int result = calc.subtract(5,4);
+        assertEquals(1 , result);
+    }
 
+    @Test
+    public void 양수곱셈() {
+        Calculator calc = new Calculator();
+        int result = calc.multiply(5,4);
+        assertEquals(20, result);
+    }
 
 }
