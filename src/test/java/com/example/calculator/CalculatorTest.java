@@ -64,8 +64,8 @@ public class CalculatorTest {
     @Test
     public void 양수곱셈() {
         Calculator calc = new Calculator();
-        int result = calc.multiply(5,4);
-        assertEquals(20, result);
+        int result = calc.multiply(10,4);
+        assertEquals(40, result);
     }
 
 }
